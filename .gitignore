@@ -108,4 +108,4 @@ data/segpos/
 frontend/node_modules/
 frontend/ssl/
 frontend/dist/
-
+spider.ipynb
