@@ -7,7 +7,7 @@ import init, analysis
 
 @hug.get('/')
 def say_hi():
-    return "Hi from Auto Comment API."
+    return "Hi from SuitJOB API."
 
 @hug.extend_api('/api')
 def with_other_apis():

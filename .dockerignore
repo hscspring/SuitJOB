@@ -1,0 +1,21 @@
+# Yam
+**/yam_*
+
+# hidden files
+**/*.DS_Store
+**/*.cache
+env
+protos
+
+# python
+**/*__pycache__
+**/*spellcheck.egg-info
+**/*.ipynb*
+**/*.pyc
+
+frontend/node_modules
+frontend/package-lock.json
+frontend/src
+frontend/public
+frontend/config
+frontend/mock
