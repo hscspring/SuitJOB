@@ -19,6 +19,7 @@ class Home extends Component {
       <div>
         <p className={styles.welcome} />
         <p className={styles.button}><Button type='primary' size='large' onClick={this.handleClick}>开始测试</Button></p>
+        <p className={styles.small}>shuguok.com 转让，有意者请联系 362892962@qq.com</p>
       </div>
     );
   }

@@ -51,6 +51,7 @@ class Submit extends Component {
                     renderItem={item => <List.Item>{item[0]} <Rate disabled defaultValue={Math.round(item[1]/20)} /></List.Item>}
                 /></p>
                 <p className={styles.button}><Button type="primary" onClick={this.reTest}>再试一次</Button></p>
+                <p className={styles.small}>数据及模型详见：<a href="https://github.com/hscspring/SuitJOB">GitHub</a></p>
             </div>
         );
     }
